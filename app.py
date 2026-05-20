@@ -19,6 +19,6 @@ st.markdown("""
 st.markdown("<h1>Edanurdogan Portfolyo</h1>", unsafe_allow_html=True)
 
 try:
-    st.image("portfoly.jpg", use_container_width=True)
+    st.image("portfolyo.jpg", use_container_width=True)
 except Exception:
-    st.error("'portfolyo.jpg' dosyası dizinde bulunamadı.")
+    st.error("'portfolyo.jpg' dosyası dizinde bulunamadı. Lütfen github deponuzdaki dosya adının büyük/küçük harf uyumunu (örneğin Portfolyo.jpg veya portfolyo.JPG) kontrol edin.")
